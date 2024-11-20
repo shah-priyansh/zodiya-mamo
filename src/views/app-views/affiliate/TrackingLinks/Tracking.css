@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .tracking-links-page {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tracking-links-page h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add New Link Button */
+  .add-new-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .add-new-link button {
+    padding: 10px 20px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-new-link button:hover {
+    background: #1565c0;
+  }
+  
+  /* Tracking Links Section */
+  .section {
+    margin: 20px 0;
+  }
+  
+  .section h2 {
+    color: #444;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  /* Button Styles for Edit/Delete */
+  button {
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background: #1565c0;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tracking-links-page {
+      padding: 15px;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  
+    .add-new-link {
+      justify-content: center;
+    }
+  
+    .add-new-link button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
+  

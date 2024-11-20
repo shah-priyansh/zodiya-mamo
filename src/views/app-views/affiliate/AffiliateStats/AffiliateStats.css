@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .affiliate-stats-page {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .affiliate-stats-header h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stats Cards */
+  .stats-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .stat-card h3 {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  .stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e88e5;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Stats Table */
+  .section.stats-table {
+    margin-top: 30px;
+  }
+  
+  section h2 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  table tbody tr:hover {
+    background: #e3f2fd;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background: #1565c0;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .affiliate-stats-page {
+      padding: 15px;
+    }
+  
+    .stat-card {
+      padding: 15px;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  }
+  

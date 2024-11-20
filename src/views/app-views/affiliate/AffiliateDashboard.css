@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .affiliate-dashboard {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .metric-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric-card h3 {
+    color: #555;
+  }
+  
+  .metric-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e88e5;
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .section h2 {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #1565c0;
+  }
+  
